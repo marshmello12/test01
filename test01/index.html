@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>快元素</title>
+<style>
+.product{
+    background-color: aqua;
+}
+.product >div{
+    height: 100px;
+    width: 150px;
+}
+.product >div.left{
+background-color: bisque;
+flex: 1;
+}
+.product >div.right{
+background-color: teal;
+flex: 1;
+}
+</style>
+</head>
+<body>
+    <div class="product">
+<div class="left"></div>
+<div class=“right”></div>
+    </div>
+</body>
+</html>
